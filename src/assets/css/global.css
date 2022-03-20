@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  overflow-y: scroll;
+  overflow: scroll;
+}
+html::-webkit-scrollbar{
+  display: none;
+}
+html,body,#app{
+  height: 100%;
+}
+
+/*解决高度太高的问题*/
+.el-cascader-menu {
+  height: 300px ;
+}
+
+.box-card{
+  margin: 10px 0;
+}
+.el-steps{
+  margin: 10px 0;
+}
+.el-step__title{
+  font-size: 13px;
+  font-family: Microsoft YaHei;
+}
+/* 富文本框的最小高度设置 */
+.ql-editor{
+  min-height: 300px;
+}
